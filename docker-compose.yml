@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cache:
+    image: redis:7.0
+    container_name: redis
+    ports:
+      - 6370:6379
